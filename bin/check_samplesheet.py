@@ -151,9 +151,10 @@ def check_samplesheet(file_in, updated_path, file_out):
                         and fasta[-3:] != ".fa"
                         and fasta[-9:] != ".fasta.gz"
                         and fasta[-6:] != ".fa.gz"
+                        and fasta[-4:] != ".fna"
                     ):
                         print_error(
-                            "Genome entry does not have extension '.fasta', '.fa', '.fasta.gz' or '.fa.gz'!",
+                            "Genome entry does not have extension '.fasta', '.fa', 'fna', '.fasta.gz' or '.fa.gz'!",
                             "Line",
                             line,
                         )

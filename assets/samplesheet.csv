@@ -1,4 +1,4 @@
-group,replicate,barcode,input_file,genome,transcriptome
+group,replicate,barcode,input_file,fasta,gtf
 MCF7,1,,MCF7_directcDNA_replicate1.fastq.gz,genome.fa,genes.gtf
 MCF7,2,,MCF7_directcDNA_replicate2.fastq.gz,genome.fa,genes.gtf
 MCF7,3,,MCF7_directRNA_replicate3.fastq.gz,genome.fa,genes.gtf
